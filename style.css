@@ -1,0 +1,78 @@
+*{
+    scroll-behavior: smooth;
+
+}
+
+body {
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+
+.sidemenu{ 
+    height: 100%;
+    position: fixed;
+    left:0;
+    top:0;
+    overflow: hidden;
+    padding: 20px;
+    background-color: #111;
+
+}
+
+.sidemenu a{
+    display: block;
+    padding: 6px 7px 6px 16px;
+    text-decoration: none;
+    color:darkseagreen;
+    font-size: 20px;
+    margin-bottom: .6rem;
+    background-color: grey;
+}
+
+.sidemenu a:hover{
+    color:violet;
+}
+
+.main-container{ 
+    margin-left: 200px;
+    font-size: 30px;
+    padding: 0px 10px;
+    
+    
+}
+
+.Style-container{
+    margin-bottom:100px;
+    border-radius: 10px; 
+    border: 1px solid gray;
+    height: 4cm;
+    flex-wrap: wrap;
+}
+
+.Style-container:hover{ 
+    box-shadow: 5cm;
+    color: violet;
+    padding: 4px 15px;
+    box-shadow: 0 4px 16px 0 violet
+
+}
+
+
+.card{ 
+    box-shadow: 0 4px 8px 0 rgb(37, 33, 33);
+    transition: 0.3;
+    width: 20%;
+    margin-bottom:40px
+}
+
+@media(max-width: 1024px){
+    .card{
+        width:40%
+    }
+}
+.card:hover{
+    box-shadow: 0 4px 16px 0 rgb(3, 2, 2);
+}
+
+.card-container{
+    padding: 4px 15px;
+}
